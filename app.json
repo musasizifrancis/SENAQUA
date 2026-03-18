@@ -18,6 +18,11 @@
     "android": {
       "package": "com.senaqua.app",
       "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c0ff652d-228c-409e-8c28-6a0fb25eab3c"
+      }
     }
   }
 }
