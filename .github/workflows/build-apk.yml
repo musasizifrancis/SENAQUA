@@ -27,7 +27,7 @@ jobs:
       - name: Build Android APK
         run: eas build --platform android --non-interactive
         env:
-          EXPO_TOKEN: 11CFUV24Q0hGJgQ1Dl5oZO_N1SagTQ07iIEud2z1UDQpAqI8kdhS6VP2JhlaucEbCOIXVTJE36oSPOv5ze
+          EXPO_TOKEN: YOUR_NEW_TOKEN_HERE
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
